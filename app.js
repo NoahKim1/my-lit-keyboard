@@ -17,3 +17,12 @@ function removeStyling(e){
 	var element = document.getElementById(id);
 	element.classList.remove('active');
 }
+
+function upKey(e) {
+	console.log("upKey")
+	console.log(e)
+	var id = e key;
+	var elemnet = document.getElementById(id);
+	element.classList.remove('active')
+	document.getElementById('mario').pause();
+}

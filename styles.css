@@ -30,7 +30,8 @@ span {
 
 #first-row, #second-row, #third-row, #fourth-row {
 	height: 35px;
-	
+	animation: mymove infinite;
+	animation-duration: 2s;
 }
 
 .active {
@@ -56,5 +57,6 @@ h1{
 	width:50px;
 	color: red;
 }
+
 
 
