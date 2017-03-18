@@ -3,15 +3,19 @@ body {
 	background-image: url("https://images.template.net/wp-content/uploads/2015/09/15194733/Collision-Cool-Space-Backgrounds.jpg");
 }
 span {
-	border-style: solid;
-	border-width: 1px;
-	border-color: white;
-	color: white;
-	width: 25px;
-	height: 25px;
-	font-size: 20px;
-	display: inline-block;
 	
+height:25px;
+width:25px;
+margin:0 5px 5px 0;
+line-height:25px;
+background-color:WhiteSmoke;
+text-align:center;
+font-size:14px;
+border-style:solid;
+border-width:1px;
+border-color:silver;
+display: inline-block;
+}
 
 }
 #capslock {
@@ -57,6 +61,8 @@ h1{
 	width:50px;
 	color: red;
 }
+
+
 
 
 
