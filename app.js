@@ -7,6 +7,8 @@ function addStyling(e){
 	var element = document.getElementById(id);
 	// console.log(element);
 	element.classList.add('active');
+	var audio = document.getElementById("spongebob");
+	audio.play();
 
 }
 
@@ -16,13 +18,14 @@ function removeStyling(e){
 	var id = e.key;
 	var element = document.getElementById(id);
 	element.classList.remove('active');
+	var audio = document.getElementById("spongebob");
+	audio.pause();
 }
 
-function upKey(e) {
-	console.log("upKey")
-	console.log(e)
-	var id = e key;
-	var elemnet = document.getElementById(id);
-	element.classList.remove('active')
-	document.getElementById('mario').pause();
-}
+// function upKey(e) {
+// 	console.log("upKey")
+// 	console.log(e)
+// 	var id = e.key;
+// 	var element = document.getElementById(id);
+	
+// }
